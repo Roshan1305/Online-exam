@@ -1,0 +1,86 @@
+@media (min-width: 769px) {
+  .container1 {
+    text-align: center;
+    height: 500px;
+    margin: 10px;
+    margin-right: 20px;
+    padding: 10px;
+  }
+  .content {
+    background-color: yellow;
+    border: 1px solid black;
+    margin: 60px;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background: linear-gradient(110deg, white 40%, #e6fdff 60%);
+
+    width: fit-content;
+  }
+  .form-group {
+    padding: 10px;
+  }
+  .Name {
+    padding: 10px;
+    font-size: large;
+    font-weight: 700;
+  }
+  .submit {
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+  }
+  .form-control {
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+    margin: 15px;
+  }
+  button {
+    margin: 5px;
+  }
+}
+@media (max-width: 768px) {
+  .container1 {
+    text-align: center;
+    height: 500px;
+    margin: 10px;
+    margin-right: 20px;
+    padding: 10px;
+  }
+  .content {
+    background-color: yellow;
+    border: 1px solid black;
+    margin: 60px;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background: linear-gradient(110deg, white 40%, #e6fdff 60%);
+
+    width: fit-content;
+  }
+  .form-group {
+    padding: 10px;
+  }
+  .Name {
+    padding: 10px;
+    font-size: large;
+    font-weight: 700;
+  }
+  .submit {
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+  }
+  .form-control {
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+    margin: 15px;
+  }
+  button {
+    margin: 5px;
+  }
+}

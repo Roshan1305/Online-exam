@@ -1,0 +1,42 @@
+.container4 {
+  border: 1px solid black;
+  margin: 4%;
+  padding: 2%;
+  margin-top: 10px;
+  height: fit-content;
+}
+.instr4 {
+  text-align: start;
+}
+
+@media (min-width: 750px) {
+  .adm {
+    display: flex;
+  }
+  .body2 {
+    flex: 0.6;
+    display: block;
+    margin: 30px;
+    height: 30vw;
+  }
+  .details {
+    text-align: center;
+    border-left: 1px solid gray;
+
+    flex: 0.4;
+  }
+  .dte {
+    margin-top: 30px;
+    display: flex;
+  }
+}
+@media (max-width: 750px) {
+  .adm {
+    display: block;
+  }
+  .dte {
+    margin-left: 20%;
+    margin-top: 30px;
+    display: flex;
+  }
+}

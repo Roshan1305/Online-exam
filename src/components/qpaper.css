@@ -1,0 +1,143 @@
+.cont {
+  display: flex;
+}
+.de1 {
+  flex: 0.5;
+  font-weight: 600;
+  margin-bottom: 2vw;
+  font-size: large;
+}
+.de2 {
+  flex: 0.5;
+  margin-bottom: 2vw;
+
+  font-weight: 600;
+  margin-left: 1vw;
+  font-size: large;
+}
+.cont {
+  color: black;
+  margin-left: vw;
+  margin-top: 2vh;
+}
+.avatar {
+  margin-top: 4vh;
+  margin-left: 5.1vw;
+}
+h4 {
+  color: black;
+}
+.qpbody {
+  margin-left: 5vw;
+  border: 1px solid black;
+  display: block;
+  width: 40vw;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+.email {
+  margin-top: 20px;
+
+  margin-bottom: 20px;
+}
+textarea {
+  height: 10vw;
+  width: 35vw;
+  outline-width: 0;
+  margin-top: 10px;
+}
+.total {
+  height: 350vh;
+  background-color: #ede7f6;
+}
+.count {
+  color: white;
+  width: 60px;
+  margin-left: 5vw;
+  margin-top: 1.5vw;
+  margin-bottom: 1.5vw;
+}
+input[type="radio"] {
+  margin: 10px;
+}
+.button {
+  background-color: #673ab7;
+  color: white;
+}
+@media (min-width: 750px) {
+  .left1 {
+    margin-left: 19%;
+  }
+  .cont {
+    margin-left: 180%;
+  }
+  .qpbody {
+    width: 70%;
+  }
+  #topf {
+    margin: 10%;
+    margin-left: 19%;
+  }
+}
+@media (max-width: 750px) {
+  #avatar {
+    display: flex;
+    align-items: center;
+  }
+  .de2 {
+    margin-left: 1vw;
+    margin-top: 0.7vh !important;
+  }
+  .cont {
+    margin-left: 20%;
+  }
+  textarea {
+    border: 1px solid black;
+  }
+  #topf {
+    margin-left: 10%;
+  }
+  .qpbody {
+    width: 90%;
+  }
+  textarea {
+    width: 100%;
+    height: 100%;
+  }
+  .qbody {
+    display: block;
+    padding-top: 30px;
+  }
+  .left1 {
+    text-align: start;
+  }
+  /* .right {
+    margin-left: 15vw;
+    width: 70%;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    height: fit-content;
+    border-radius: 20px;
+  } */
+  /* .cont {
+      display: flex;
+      align-items: center;
+    }
+    .de1 {
+      flex: 0.5;
+      font-weight: 600;
+      margin-bottom: 2vw;
+      font-size: large;
+    }
+    .de2 {
+      flex: 0.5;
+      margin-bottom: 2vw;
+
+      font-weight: 600;
+      margin-left: 1vw;
+      font-size: large;
+    } */
+}
