@@ -28,7 +28,9 @@ function Loading() {
       .then((res) => {
         console.log(res.data);
         // eslint-disable-next-line no-restricted-globals
-        res.data ? history.push("/qpaper") : setverify("false");
+        res.data
+          ? history.push("/qpaper")
+          : alert("Incorrect! Verification Code");
       });
   };
 

@@ -24,15 +24,17 @@ function Submitted() {
             <ul>
               <li>
                 After finishing the exam uninstall the installed exe file and
-                enable your firewall and antivirus protections
+                enable your firewall and antivirus protections.
               </li>
               <li>
                 After submitting the test your response will be sent to your
-                consent teacher and your answers will be evaluated
+                consent teacher and your answers will be evaluated.
               </li>
 
-              <li>You will receive a mail after 2 or 3 days with your marks</li>
-              <li>No change can be done in your recorded response</li>
+              <li>
+                You will receive a mail after 2 or 3 days with your marks.
+              </li>
+              <li>No change can be done in your recorded response.</li>
             </ul>
           </div>
         </div>

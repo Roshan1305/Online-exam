@@ -38,7 +38,16 @@ function Admin() {
       </button> */}
       <h3 style={{ marginLeft: "8vh" }}>Student Responses</h3>
       <div className="adm">
-        <div className="body2" style={{ marginLeft: "10vh" }}>
+        <div
+          className="body2"
+          style={{
+            height: "fit-content",
+            marginLeft: "10vh",
+            display: "grid",
+            gridGap: "10px",
+            "grid-template-columns": "auto auto auto",
+          }}
+        >
           {answers != [""] ? (
             answers.map((answer) => (
               <Answer answer={answer} />
@@ -77,7 +86,7 @@ function Admin() {
                     <li>You can click on the Check Answer sheet.</li>
                     <li>
                       You can see an actual copy of the answer sheet with
-                      details like Registration Number
+                      details like Registration Number.
                     </li>
 
                     {/* <li>
